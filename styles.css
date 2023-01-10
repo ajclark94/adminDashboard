@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #fff;
+  color: #000;
+}
+
+body {
+  font-size: 1.4rem;
+  text-rendering: optimizeLegibility;
+}
+
+body,
+ul,
+ol,
+dl {
+  margin: 0;
+}
+article,
+aside,
+audio,
+footer,
+header,
+nav,
+section,
+video {
+  display: block;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+p {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+.right {
+  float: right;
+  margin-left: 2rem;
+  clear: right;
+}
+.left {
+  float: left;
+  margin-right: 2rem;
+  clear: left;
+}
+
+/* 
